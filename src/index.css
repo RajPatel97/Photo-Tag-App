@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/*Header Styles */
+
 * {box-sizing: border-box;}
 body {
 margin: 0;
@@ -66,3 +68,26 @@ float: none;
 }
 
 }
+
+/*side bar styles */
+
+.sidenav {
+  width: 200px;
+  /* position: relative; this may be useful later */
+  background: rgb(197, 118, 118);
+  padding: 10px 20px 40%;/* change the percentage to adjust the hight of the bar. moves it lower  */
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: aliceblue;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
