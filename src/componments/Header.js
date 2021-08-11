@@ -4,7 +4,10 @@ const Header = () => {
             <h2 className="title">Photo Tag!</h2>
             <h4 className="description">Find all the items on the list</h4>
             <div className="header-right">
-            <h2>about</h2>
+            <div>About </div>
+            </div>
+            <div className="header-right">
+            <div> View the Code!</div>
             </div>
         </div>
      );

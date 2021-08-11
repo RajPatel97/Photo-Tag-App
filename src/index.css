@@ -19,8 +19,9 @@ font-family: Arial;
 }
 .header {
 overflow: hidden;
-background-color: cyan;
+background-color: rgb(18, 64, 88);
 padding: 20px 10px;
+color:aliceblue;
 }
 .header a {
 float: left;
@@ -46,7 +47,14 @@ color: white;
 }
 .header-right {
 float: right;
+padding-right: 2%;
+
 }
+
+.header-right:hover {
+  border-bottom:1px solid #fff;
+  }
+
 @media screen and (max-width: 500px) {
 .header a {
 float: none;
@@ -56,4 +64,5 @@ text-align: left;
 .header-right {
 float: none;
 }
+
 }
