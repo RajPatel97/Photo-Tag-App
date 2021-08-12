@@ -112,3 +112,6 @@ img{
 .image-wrapper{
   max-width: 71%;
 }
+.main-container{
+  max-width: 100%;
+}
