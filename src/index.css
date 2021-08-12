@@ -75,7 +75,8 @@ float: none;
   width: 200px;
   /* position: relative; this may be useful later */
   background: rgb(197, 118, 118);
-  padding: 10px 20px 40%;/* change the percentage to adjust the hight of the bar. moves it lower  */
+  padding: 10px 20px 520%;/* change the percentage to adjust the hight of the bar. moves it lower  */
+  grid-column-start: auto;
 
 }
 
@@ -91,3 +92,16 @@ float: none;
   color: #064579;
 }
 
+.image-wrapper{
+  grid-column-end:auto;
+
+}
+
+.main-content{
+  display: grid;
+  grid-template-columns:max-content max-content
+}
+
+img{
+  max-width:71.35%
+}
