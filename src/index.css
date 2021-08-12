@@ -12,18 +12,26 @@ code {
     monospace;
 }
 
+body::-webkit-scrollbar {
+  display: none; /*makes the scroll bars disapear  */
+}
 /*Header Styles */
 
 * {box-sizing: border-box;}
 body {
 margin: 0;
 font-family: Arial;
+
 }
+
 .header {
 overflow: hidden;
-background-color: rgb(18, 64, 88);
+background-color: rgb(60, 66, 92);
 padding: 20px 10px;
 color:aliceblue;
+/*border-style:none none solid none ;*/
+border-style: solid;
+border-color: rgb(121, 66, 59);
 }
 .header a {
 float: left;
@@ -74,10 +82,11 @@ float: none;
 .sidenav {
   width: 200px;
   /* position: relative; this may be useful later */
-  background: rgb(197, 118, 118);
+  background: rgb(60, 66, 92);
   padding: 10px 20px 520%;/* change the percentage to adjust the hight of the bar. moves it lower  */
   grid-column-start: auto;
-
+  border-style: none solid solid solid;
+border-color: rgb(121, 66, 59);
 }
 
 .sidenav a {
@@ -92,6 +101,7 @@ float: none;
   color: #064579;
 }
 
+/* Image styles */
 .image-wrapper{
   grid-column-end:auto;
 
