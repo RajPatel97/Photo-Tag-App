@@ -2,9 +2,9 @@ const SideList = () => {
     return ( 
         <div className="sidenav">
         <h1>Find These Guys!</h1>
-        <a href="test 3">test1</a>
-        <a href="test 3">test2</a>
-        <a href="test 3">test3</a>
+        <a href="https://mortalkombat.fandom.com/wiki/Kung_Lao">Kung Lao</a>
+        <a href="https://mortalkombat.fandom.com/wiki/Scorpion">Scorpion</a>
+        <a href="https://mortalkombat.fandom.com/wiki/Erron_Black">Erron Black</a>
         </div>
      );
 }
