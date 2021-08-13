@@ -1,5 +1,6 @@
 import findimage from './assets/MortalKombat.jpeg'
 
+
 const Image = () => {
 
     const handleClick=(event)=>{
