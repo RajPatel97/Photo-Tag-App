@@ -32,6 +32,8 @@ color:aliceblue;
 /*border-style:none none solid none ;*/
 border-style: solid;
 border-color: rgb(121, 66, 59);
+min-height: 200px;
+max-height: 200px;
 }
 .header a {
 float: left;
