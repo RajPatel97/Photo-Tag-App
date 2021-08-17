@@ -22,7 +22,6 @@ const Image = () => {
 
     const handleClick=(event)=>{
         //console.log(event);
-        let database = firebase.database();
         let db = firebase.firestore(app);
         let characters= db.collection('Character Loactions').doc('dMSqvUfM4hW45HAtor2M');
 
